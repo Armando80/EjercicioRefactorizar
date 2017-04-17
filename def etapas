@@ -1,0 +1,4 @@
+def etapas
+	edad = 15
+	case edad
+	
