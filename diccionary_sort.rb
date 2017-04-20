@@ -13,6 +13,8 @@ p "Escribe otra palabra(o presiona 'enter' para finalizar):"
 		words << word
 	end	
 puts "Felicidades: Tu diccionario tiene #{i} palabras :"
-puts words
+puts words.sort_by{|w| [w.downcase, w]}
+
+
 
 
